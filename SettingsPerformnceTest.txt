@@ -1,0 +1,14 @@
+ktvnQyMDTs89I0IQWIY+Bg==
+
+key="EnableUrlReferrerValidation" value="Y" />
+Login Scenario:
+---------------------
+Blazemeter Settings
+1. Login to Blazemeter . without Login User will not get save as Jemeter script option while saving the file
+2. Advence Settings > Check all option but "Record Ajax Requests" 
+3. Request to Record > "Only Top level Request"
+4. Gui Functional Test Options > uncheck "Export ID locators"
+
+Jmeter Settings :
+----------------------
+1. HTTP Cookie Manager > Cookie Policy > "default" should be selected 
